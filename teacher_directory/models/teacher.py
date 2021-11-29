@@ -47,7 +47,7 @@ class Teacher:
     @subjects_taught.validator
     def validate_subjects_taught(self, attribute, value):
         if value and len(value) > 5:
-            raise ValueError("A teacher should not taught more than 5 subjects")
+            raise ValueError("A teacher can not teach more than 5 subjects")
 
     def to_dict(self):
         return {
