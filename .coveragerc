@@ -1,0 +1,10 @@
+[run]
+omit =
+	**/app.py
+	**/run.py
+	**/config.py
+	**/db/**
+    **/tests/**
+
+[report]
+fail_under = 80

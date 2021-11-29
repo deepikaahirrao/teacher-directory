@@ -1,0 +1,10 @@
+service_config:
+  host: localhost
+  port: 8585
+
+database:
+  file_path: "./teacher_directory/db/teacheradmin.db"
+  db_name: "teacheradmin"
+
+user:
+  secret: "aW1wb3J0ZXI=" # base64.b64encode(str.encode("importer")).decode()
