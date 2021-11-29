@@ -53,7 +53,7 @@ def add_resources(my_api):
     )
     my_api.add_resource(UserResource, "/user/")
     my_api.add_resource(LoginResource, "/login/")
-    my_api.add_resource(TeacherResource, "/search-teacher/")
+    my_api.add_resource(TeacherResource, "/teacher/")
     my_api.add_resource(FeedDataResource, "/feed-data/")
     my_api.add_resource(FilterResource, "/teachers/")
     my_api.add_resource(SearchResource, "/teachers/<string:field>/<string:value>")
