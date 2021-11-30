@@ -47,7 +47,7 @@ class TeacherResource(Resource):
 class FeedDataResource(Resource):
 
     @api.doc(params=
-             {"csv_file_path": {"description": "a field name sort the date with",
+             {"csv_file_path": {"description": "a absolute location of csv file",
                             "type": "str",
                             },
               })
@@ -119,7 +119,7 @@ class SearchResource(Resource):
 class FilterResource(Resource):
 
     @api.doc(params=
-             {"filter_by": {"description": "a field name sort the date with",
+             {"filter_by": {"description": "a field name to sort the data with",
                             "type": "str",
                             "default": "last_name"
                             },
